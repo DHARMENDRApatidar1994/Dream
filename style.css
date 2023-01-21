@@ -1,0 +1,709 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow-x: hidden;
+}
+#page1{
+    width: 100%;
+    height: 100%;
+    /* background-color: blue; */
+
+}
+nav{
+    width: 100%;
+    height: 8%;
+    /* background-color: gray; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav-left h5{
+    color: red;
+    margin-left: 2vmax;
+    font-size: 1vmax;
+}
+nav .nav-right{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.4vmax;
+}
+.nav-right .ap{
+    background-color: red;
+    border-radius: 1.5vmax;
+    padding: 0.5vmax 1vmax;
+}
+.nav-right .dot{
+    display: flex;
+    font-size: 5vmax;
+    font-weight: 700;
+    align-items: center;
+    margin-top: -3vmax;
+    border-radius: 7vmax;
+}
+#page1 .matter1{
+    width: 50%;
+    height: 30%;
+    /* background-color:red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 25%;
+    text-align: center;
+    /* display: inline-block; */
+}
+.matter1 h6{
+    font-size: 0.8vmax;
+}
+.matter1 h3{
+    font-size: 1.5vmax;
+}
+.matter1 p{
+    font-size: 1vmax;
+    line-height: 1.5vmax;
+}
+.matter2{
+    width: 15%;
+    height: 40%;
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: 40%;
+}
+.matter2 h2{
+    
+    height: 20%;
+    font-size: 400%;
+    font-weight: 100;
+    color: red;
+    margin-top: -6vmax;
+}
+.matter2 i{
+color: red;
+margin-top: -1vmax;
+cursor: pointer;
+
+}
+.matter2 input{
+    width: 80%;
+    height: 9%;
+    font-size: 1vmax;
+    text-align: center;
+    margin-left: 1vmax;
+    cursor: pointer;
+    /* margin-top: 2vmax; */
+}
+#page1 h1{
+    font-size: 10vmax;
+    color: rgba(0, 0, 0, 0.1);
+    margin-top: -15vmax;
+    margin-left: 12vmax;
+}
+#page1 .matter3{
+    width: 35%;
+    height: 40%;
+    /* display: inline-block; */
+    /* background-color: gray; */
+    margin-top: -4vmax;
+    margin-left: 2vmax;
+}.matter3 h6{
+    font-size: 1vmax;
+    letter-spacing: 0.2vmax;
+    color: red;
+
+    
+}
+
+.matter3 h3{
+    font-size: 1.5vmax;
+}
+.matter3 .hii{
+    background-color: red;
+}
+.matter3 .bye{
+    border: 1px solid black;
+}
+.matter3 p{
+    font-size: 1vmax;
+    line-height: 1.5vmax;
+}
+.matter3 button{
+    border-radius: 2vmax;
+    border: none;
+    font-size: 1vmax;
+    font-weight: 600;
+    padding: 0.5vmax 1vmax;
+    cursor: pointer;
+}
+#page1 img{
+    width: 50%;
+    color: red;
+    margin-left: 60.2%;
+    margin-top: -35%;
+    cursor: pointer;
+}
+#page1 .image img{
+    width: 30%;
+    height: 12vmax;
+    display: flex;
+    margin-top: -30%;
+    margin-left: 55%;
+    cursor: pointer;
+    
+}
+
+#page2{
+    width: 100%;
+    height: 100%;
+    /* background-color: cornflowerblue; */
+    border: 1px solid white;
+}
+#page2 .top{
+    width: 40%;
+    height: 10%;
+    /* background-color: gray; */
+    margin-top: 5vmax;
+    margin-left: 25%;
+    text-align: center;
+}
+.top h6{
+    color: red;
+    font-size: 0.9vmax;
+}
+.top h3{
+    font-size: 1.6vmax;
+}
+#page2 .box{
+    width: 93%;
+    height: 45%;
+    /* background-color: green; */
+    margin-top: 4vmax;
+    margin-left: 3vmax;
+    display: flex;
+    text-align: center;
+}
+.box h6{
+    font-size: 0.8vmax;
+}
+.box h5{
+    font-size: 1.2vmax;
+}
+.box .image1 img{
+    width: 100%;
+    height:70% ;
+    background-color: red;
+    cursor: pointer;
+}
+.box .image2 img{
+    width: 100%;
+    height:70% ;
+    background-color: blue;
+    margin-top: 2vmax;
+    cursor: pointer;
+}
+.box .image3 img{
+    width: 100%;
+    height:70% ;
+    background-color: brown;
+    cursor: pointer;
+}
+.box .image4 img{
+    width: 100%;
+    height:70% ;
+    background-color: pink;
+    margin-top: 2vmax;
+    cursor: pointer;
+}
+.box .image5 img{
+    width: 100%;
+    height:70% ;
+    background-color: black;
+    cursor: pointer;
+}
+.box h6{
+    color: red;
+}
+.mobile-box{
+    display: none;
+}
+
+
+.matterline{
+    width: 15%;
+    height: 30%;
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: 40%;
+}
+.matterline h2{
+    
+    height: 20%;
+    font-size: 400%;
+    font-weight: 100;
+    color: red;
+    margin-top: -3vmax;
+}
+.matterline input{
+    width: 80%;
+    height: 12%;
+    font-size: 1vmax;
+    text-align: center;
+    margin-left: 1vmax;
+    margin-top: 2vmax;
+    padding-top: 1vmax;
+    padding-bottom: 1vmax;
+    color: black;
+    cursor: pointer;
+}
+#page2 h1{
+    color: rgba(0, 0, 0, 0.1);
+    font-size: 10vmax;
+    margin-top: -13vmax;
+    margin-left: 19vmax;
+}
+#page3{
+    width: 100%;
+    height: 100%;
+    /* background-color: pink; */
+    border: 1px solid white;
+}
+#page3 .matter5 p{
+    width: 40%;
+    height: 10%;
+    /* background-color: red; */
+    font-size: 1.3vmax;
+    margin-left: 30vmax;
+    margin-top: 2vmax;
+    line-height: 2vmax;
+    text-align: center;
+
+}
+#page3 .matter6{
+    width: 100%;
+    height: 35%;
+    background-color: red;
+    transform: rotate(-1deg);
+    /* text-align: center; */
+    color: white;
+}
+.matter6 h6{
+    font-size: 1vmax;
+    text-align: center;
+}
+.matter6 h5{
+    font-weight: 100;
+    text-align: center;
+    font-size: 1vmax;
+    letter-spacing: 0.5vmax;
+    cursor: pointer;
+}
+.matter6 span{
+    color: yellow;
+    cursor: pointer;
+}
+.matter6 h1{
+    margin-right: 29vmax;
+    font-size: 10vmax;
+    color: rgba(0, 0, 0, 0.1);
+    margin-top: -3vmax;
+    text-align: center;
+}
+.matter6 h4{
+    font-size: 2vmax;
+    color: rgba(0, 0, 0, 0.3);
+    margin-top: -6vmax;
+    margin-right: 22vmax;
+    text-align: center;
+}
+.matter6 h2{
+    font-size: 3vmax;
+    text-align: center;
+}
+.matter6 i{
+    display: flex;
+    justify-content: end;
+    margin-right: 3vmax;
+    margin-top: -3vmax;
+    cursor: pointer;
+}
+.matter6 ul{
+    width: 40%;
+    font-size: 1vmax;
+    margin-left: 34vmax;
+    margin-top: 1vmax;
+    
+}
+.heading h6{
+    font-size: 1.5vmax;
+    color: red;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5vmax;
+}
+#page3 .matter7{
+    width: 100%;
+    height: 33%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2vmax;
+    text-align: center;
+}
+.matter7 .box1{
+    width: 21%;
+    height: 150%;
+    background-color: white;
+}
+.box1 h6{
+    font-size: 1vmax;
+    color: rgba(0, 0, 0, 0.3);
+    margin-top: 1vmax;
+}
+.box1 h3{
+    font-size: 1.5vmax;
+    margin-top: 2vmax;
+}
+.box1 h1{
+    
+    width: 50%;
+    font-size: 1.5vmax;
+    color: red;
+    border-bottom: 1px solid red;
+    text-align: center;
+    margin-left: 5vmax;
+    cursor: pointer;
+    margin-top: 2vmax;
+}
+.box1 h4{
+    width: 20%;
+    margin-top: 1vmax;
+    margin-left: 8vmax;
+}
+.box1 h5{
+    margin-top: 1.5vmax;
+    font-size: 1.1vmax;
+}
+
+#page4{
+    width: 100%;
+    height: 100%;
+    /* background-color: yellow; */
+    border: 1px solid white;
+    z-index: -1;
+}
+#page4 .matter8{
+    width: 100%;
+    height: 68%;
+    background-color: red;
+    margin-top: 15vmax;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.matter8 .end{
+    width: 60%;
+    text-align: center;
+    margin-top: 2vmax;
+
+}
+.end h2{
+    width: 60%;
+    margin-left: 11vmax;
+    font-size: 1.7vmax;
+
+}
+.end p{
+    font-size: 1vmax;
+    margin-top: 1vmax;
+    margin-bottom: 1.5vmax;
+}
+.end button{
+    background-color: black;
+    color: white;
+    font-size: 1vmax;
+    padding: 0.5vmax;
+    border-radius: 2vmax;
+    cursor: pointer;
+}
+.end h5{
+    margin-top: 1vmax;
+    cursor: pointer;
+    font-size: 0.9vmax;
+}
+.end span{
+    color: rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width:600px) {
+    
+
+#page1{
+    width: 100%;
+    height: 100%;
+   
+}
+nav{
+    width: 100%;
+    height: 8%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav-left h5{
+    
+    font-size: 2vmax;
+}
+nav .nav-right{
+    width: 65%;
+   
+    font-size: 2vmax;
+}
+
+#page1 .matter1{
+    width: 50%;
+    height: 30%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 25%;
+    text-align: center;
+    
+}
+.matter1 h6{
+    font-size: 1.2vmax;
+}
+.matter1 h3{
+    font-size: 2vmax;
+}
+.matter1 p{
+    font-size: 1.2vmax;
+    
+}
+.matter2{
+    width: 15%;
+    height: 40%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: 40%;
+}
+.matter2 h2{
+    font-size: 10vmax;
+    
+    margin-top: -8vmax;
+}
+.matter2 i{
+
+font-size: 2vmax;
+
+}
+.matter2 input{
+     font-size: 2vmax; 
+}
+#page1 h1{
+     margin-top: -19vmax;
+    margin-left: 1vmax;
+}
+#page1 .matter3{
+     /* background-color: gray; */
+    margin-top: -2vmax;
+    
+}.matter3 h6{
+    font-size: 1.5vmax;   
+}
+.matter3 h3{
+    font-size: 2.5vmax;
+}
+.matter3 p{
+    font-size: 1.5vmax;
+    margin-top: 0.5vmax;
+}
+.matter3 button{
+    font-size: 1.5vmax;
+     margin-top: 0.5vmax;
+}
+#page1 img{
+    width: 50%;
+    height: 40%;
+    margin-top: -75%;
+}
+#page1 .image img{
+    width: 40%;
+      margin-top: -50%;   
+}
+#page2 .top{
+     margin-top: 8vmax;  
+}
+.top h6{
+    color: red;
+    font-size: 1.5vmax;
+}
+.top h3{
+    font-size: 2vmax;
+}
+#page2 .box{
+    display: none;
+}
+ .mobile-box img{
+    width: 80%;
+    height: 45%;
+   margin-left: 5vmax;
+   text-align: center; 
+     display: initial;  
+}
+.mobile-box h6{
+    font-size: 2.5vmax;
+    color: red;
+    text-align: center;
+}
+.mobile-box h5{
+    font-size: 2vmax;
+    text-align: center;
+}
+.matterline h2{
+    font-size: 10vmax;
+}
+.matterline input{
+    width: 100%;
+    font-size: 1.6vmax;
+     margin-left: 0vmax;
+    margin-top: 7vmax;
+}
+#page2 h1{
+   margin-top: -17vmax;
+    margin-left: 1vmax;
+}
+#page3{
+    width: 100%;
+    height: 100%;
+   border: 1px solid white;
+}
+#page3 .matter5 p{
+    width: 50%;
+   font-size: 1.5vmax;
+    margin-left: 13vmax;
+}
+#page3 .matter6{
+    width: 100%;
+    height: 35%;
+    background-color: red;
+    transform: rotate(-1deg);
+   color: white;
+}
+.matter6 h6{
+    font-size: 1.3vmax;
+}
+.matter6 h5{
+    font-size: 1.5vmax;
+}
+.matter6 h1{
+    font-size: 14vmax;
+}
+.matter6 h4{
+    font-size: 4vmax;
+    margin-top: -5vmax; 
+}
+.matter6 h2{
+    font-size: 4vmax;
+}  
+.matter6 i{
+    margin-right: 2vmax;
+    margin-top: -3.5vmax;
+    font-size: 3vmax;
+}
+.matter6 ul{
+    width: 70%;
+    font-size: 2vmax;
+    margin-left: 10vmax;
+    margin-top: 1.1vmax;
+    
+}
+.heading h6{
+    font-size: 1.5vmax;
+    color: red;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5vmax;
+}
+#page3 .matter7{
+   
+    flex-wrap: wrap;
+   
+}
+.matter7 .box1{
+    width: 41%;
+    height: 65%;
+     margin-top: 3vmax;
+}
+.box1 h6{
+    font-size: 1.5vmax;
+    margin-top: 1vmax;
+}
+.box1 h3{
+    font-size: 2.2vmax;
+   }
+.box1 h1{
+     width: 60%;
+    font-size: 2vmax;
+   }
+.box1 h4{
+    width: 30%;
+       margin-left: 7.2vmax;
+}
+.box1 h5{
+    margin-top: 1vmax;
+    font-size: 2vmax;
+}
+.matter8 .end{
+       margin-top: 10vmax;
+}
+.end input{
+    padding: 0.1vmax;
+    font-size: 1.2vmax;
+    margin-top: 1vmax;
+}
+.end h2{
+    width: 90%;
+    margin-left: 2vmax;
+    font-size: 2.5vmax;
+    margin-top: 1vmax;
+}
+.end p{
+    font-size: 1.3vmax;
+    margin-top: 1vmax;
+   }
+.end button{
+    font-size: 2vmax;
+    padding: 0.5vmax 1vmax;
+    border-radius: 1vmax;
+    margin-top: 1vmax;
+   }
+.end h5{
+     font-size: 1.5vmax;
+     margin-top: 1vmax;
+}
+
+
+}
